@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-direction: row;
+}
+.leftcentenier{
+    background-color:#f2f2f2;
+    width: 25vw;
+    height: 100vh;
+    border: solid black;
+}
+
+.rightcentenier{
+    background-color:#f2f2f2;
+    width: 75vw;
+    height: 100vh;
+    border: solid ;
+    border-color: black black black transparent;
+    border-radius: 4px;
+    flex-direction: column;
+    overflow-y: auto;
+}
